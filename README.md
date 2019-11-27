@@ -4,7 +4,7 @@ React js simple application. Get data from API and Render on html view. Build fu
 # npm start
 # open in browser http://localhost:3000
  if you want to build then add these line in package.json
- # "homepage": "projectfilepath" ( "homepage": "http://localhost/react/first/")
+ # "homepage": "projectfilepath" like as ( "homepage": "http://localhost/react/first/")
  # start php server and open in browser
  # "homepage": "http://localhost/react/first/",
  
