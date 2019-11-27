@@ -1,5 +1,5 @@
 # simple-reactjs-application
-React js simple application. Get data from API and Render on html view. Build functionality is also here.
+ this is simple application. Get data from API and Render on html view. Build functionality is also here.
 # npm install 
 # npm start
 # open in browser http://localhost:3000
