@@ -1,18 +1,66 @@
-# simple-reactjs-application
-A minimal React app that fetches data from an API and renders it to the page
+# Simple ReactJS Application
 
-# 1) Install dependencies
+A minimal **React.js** application that fetches data from an API and renders it to the page.  
+Built using **Create React App (CRA)** for fast development and optimized production builds.
+
+---
+
+## Features
+
+- Simple and lightweight React setup.
+- Fetches data from an API and displays it dynamically.
+- Configurable build paths for subfolder deployment.
+- Supports both development and production environments.
+
+---
+
+## Prerequisites
+
+- Node.js (v16 or higher)
+- npm (Node package manager)
+
+---
+
+## Setup Instructions
+
+### 1) Install Dependencies
+
+```
 npm install
+```
 
-# 2) Start development server (http://localhost:3000)
+---
+
+### 2) Start the Development Server
+
+This will start a local development server and open the app in your default browser at http://localhost:3000.
+
+```
 npm start
+```
 
-# Generate optimized production build in /build
+By default, the app runs on port **3000**.
+
+---
+
+### 3) Build the Application for Production
+
+Generate an optimized production build in the `/build` folder:
+
+```
 npm run build
+```
 
-By default, CRA builds assets assuming the app is served from /.
-If you will host it in a subfolder (e.g., http://localhost/react/first/), set the homepage in package.json before building:
+This creates a production-ready version of your app with static assets optimized for performance.
 
+---
+
+## Hosting in a Subfolder
+
+By default, **Create React App (CRA)** assumes your app is served from `/`.  
+If your app will be hosted in a subfolder (for example, `http://localhost/react/first/`), update the `homepage` field in your `package.json` file before building:
+
+```
 {
   "name": "simple-reactjs-application",
   "version": "1.0.0",
@@ -20,10 +68,14 @@ If you will host it in a subfolder (e.g., http://localhost/react/first/), set th
   "private": true,
   ...
 }
+```
 
-Then:
+Then rebuild your app:
 
+```
 npm run build
-Now you can access your application by this
+```
+
+You can now access your production build at:
+
 http://localhost/react/first/
- 
