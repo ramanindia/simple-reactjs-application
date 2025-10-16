@@ -1,13 +1,29 @@
 # simple-reactjs-application
- this is simple application. Get data from API and Render on html view. Build functionality is also here.
-# npm install 
-# npm start
-  open in browser http://localhost:3000
- if you want to build then add these line in package.json
- "homepage": "projectfilepath" like as ( "homepage": "http://localhost/react/first/")
- # paste build folder code inside react/first/ folder
- # start php server and open in browser
- "homepage": "http://localhost/react/first/",
- 
- For more information read readme.md file inside application
+A minimal React app that fetches data from an API and renders it to the page
+
+# 1) Install dependencies
+npm install
+
+# 2) Start development server (http://localhost:3000)
+npm start
+
+# Generate optimized production build in /build
+npm run build
+
+By default, CRA builds assets assuming the app is served from /.
+If you will host it in a subfolder (e.g., http://localhost/react/first/), set the homepage in package.json before building:
+
+{
+  "name": "simple-reactjs-application",
+  "version": "1.0.0",
+  "homepage": "http://localhost/react/first/",
+  "private": true,
+  ...
+}
+
+Then:
+
+npm run build
+Now you can access your application by this
+http://localhost/react/first/
  
